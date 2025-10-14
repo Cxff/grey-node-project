@@ -7,11 +7,13 @@
     "start": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "小灰 <chenxiaofei@cai-inc.com>",
   "license": "ISC",
-  "packageManager": "pnpm@10.12.1",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "mongoose": "^8.19.1",
     "morgan": "^1.10.0"
-  }
+  },
+  "repository": "https://github.com/Cxff/grey-node-project.git"
 }
