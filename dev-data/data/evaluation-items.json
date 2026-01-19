@@ -1,0 +1,4583 @@
+[
+  {
+    "id": 146147,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "fail",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "awaitingArbitration",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 0"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 36,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 96,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 20,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 831231,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "inArbitration",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 1"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 32,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 84,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 27,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 910594,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 2"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 60,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 40,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 78,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 910397,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 3"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [
+      "Timeout",
+      "Error 500"
+    ],
+    "evaluationScore": {
+      "score": 87,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 63,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 66,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 100432,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 4"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 82,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 65,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 4,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 141495,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 55,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 62,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 94,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 141495,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 55,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 62,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 94,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 141495,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 55,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 62,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 94,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 141495,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 55,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 62,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 94,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 141495,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 55,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 62,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 94,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 141495,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 55,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 62,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 94,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 141495,
+    "evaluationId": "eval-lmznyp37",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 55,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 62,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 94,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 898215,
+    "evaluationId": "eval-3eq1rn5m",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "passed",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 0"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 22,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 94,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 37,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 453242,
+    "evaluationId": "eval-3eq1rn5m",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "passed",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 1"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 71,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 48,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 96,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 834816,
+    "evaluationId": "eval-3eq1rn5m",
+    "evaluationExecuteStatus": "fail",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "passed",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 2"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 94,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 26,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 67,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 618969,
+    "evaluationId": "eval-qfdy49f5",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "passed",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 0"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 95,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 99,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 94,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 771314,
+    "evaluationId": "eval-qfdy49f5",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "inArbitration",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 1"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [
+      "Timeout",
+      "Error 500"
+    ],
+    "evaluationScore": {
+      "score": 73,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 44,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 16,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 97738,
+    "evaluationId": "eval-qfdy49f5",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 2"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 29,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 28,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 88,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 45610,
+    "evaluationId": "eval-qfdy49f5",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 3"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 23,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 56,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 95,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 328053,
+    "evaluationId": "eval-qfdy49f5",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "passed",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 4"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [
+      "Timeout",
+      "Error 500"
+    ],
+    "evaluationScore": {
+      "score": 30,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 45,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 82,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 20875,
+    "evaluationId": "eval-qfdy49f5",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "failedToExecute",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [
+      "Timeout",
+      "Error 500"
+    ],
+    "evaluationScore": {
+      "score": 13,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 58,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 45,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 783998,
+    "evaluationId": "eval-qfdy49f5",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 6"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [
+      "Timeout",
+      "Error 500"
+    ],
+    "evaluationScore": {
+      "score": 15,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 63,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 17,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 267206,
+    "evaluationId": "eval-hg476w8k",
+    "evaluationExecuteStatus": "fail",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 0"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 49,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 70,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 59,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 988089,
+    "evaluationId": "eval-hg476w8k",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 1"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 63,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 51,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 72,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 374719,
+    "evaluationId": "eval-hg476w8k",
+    "evaluationExecuteStatus": "fail",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 2"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 38,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 64,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 76,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 270555,
+    "evaluationId": "eval-hg476w8k",
+    "evaluationExecuteStatus": "fail",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "failedToExecute",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 3"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 56,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 18,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 89,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 880100,
+    "evaluationId": "eval-hg476w8k",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 4"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 84,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 78,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 30,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 749631,
+    "evaluationId": "eval-hg476w8k",
+    "evaluationExecuteStatus": "fail",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "inProgress",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 5"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 27,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 2,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 45,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 75151,
+    "evaluationId": "eval-hg476w8k",
+    "evaluationExecuteStatus": "fail",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 6"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 66,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 80,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 33,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 340881,
+    "evaluationId": "eval-ynnlthfv",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "needsOptimization",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 0"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 65,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 80,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 15,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 51783,
+    "evaluationId": "eval-ynnlthfv",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "awaitingArbitration",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 1"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 63,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 53,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 95,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 32404,
+    "evaluationId": "eval-ynnlthfv",
+    "evaluationExecuteStatus": "success",
+    "evaluationExecuteStatusName": "Mock Status Name",
+    "evaluationResultStatus": "inArbitration",
+    "evaluationResultStatusName": "Mock Result Name",
+    "operationList": [
+      {
+        "code": "VIEW",
+        "name": "View"
+      },
+      {
+        "code": "RETRY",
+        "name": "Retry"
+      }
+    ],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input value 2"
+      }
+    ],
+    "goldenSampleOutput": [
+      {
+        "id": 1,
+        "code": 201,
+        "name": "Golden Output",
+        "outputType": "text",
+        "value": "Expected output"
+      }
+    ],
+    "modelOutput": [
+      {
+        "id": 1,
+        "code": 301,
+        "name": "Model Output",
+        "outputType": "text",
+        "value": "Actual output"
+      }
+    ],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 4,
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": 68,
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "score": 5,
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": [
+        {
+          "id": 1,
+          "code": 1001,
+          "name": "Accuracy"
+        },
+        {
+          "id": 2,
+          "code": 1002,
+          "name": "Safety"
+        }
+      ]
+    },
+    "applicableScopeList": [
+      {
+        "id": 1,
+        "name": "Engineering"
+      }
+    ]
+  },
+  {
+    "id": 737851,
+    "evaluationId": "eval-l2zx9m9p",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 495165,
+    "evaluationId": "eval-l2zx9m9p",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 790291,
+    "evaluationId": "eval-l2zx9m9p",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 925950,
+    "evaluationId": "eval-6o7qukc2",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 134205,
+    "evaluationId": "eval-6o7qukc2",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 224011,
+    "evaluationId": "eval-6o7qukc2",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 311674,
+    "evaluationId": "eval-9q5izx70",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 875614,
+    "evaluationId": "eval-9q5izx70",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 911556,
+    "evaluationId": "eval-9q5izx70",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 614663,
+    "evaluationId": "eval-5w9ceuij",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 281982,
+    "evaluationId": "eval-5w9ceuij",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 906163,
+    "evaluationId": "eval-5w9ceuij",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 605505,
+    "evaluationId": "eval-skkyjf75",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 537643,
+    "evaluationId": "eval-skkyjf75",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 876232,
+    "evaluationId": "eval-skkyjf75",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 971201,
+    "evaluationId": "eval-2pl5x198",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 853102,
+    "evaluationId": "eval-2pl5x198",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 654039,
+    "evaluationId": "eval-2pl5x198",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 693971,
+    "evaluationId": "eval-0ij8gx8w",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 912605,
+    "evaluationId": "eval-0ij8gx8w",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 226189,
+    "evaluationId": "eval-0ij8gx8w",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 556663,
+    "evaluationId": "eval-8e8uhz36",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 435595,
+    "evaluationId": "eval-8e8uhz36",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 489539,
+    "evaluationId": "eval-8e8uhz36",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 143527,
+    "evaluationId": "eval-jjfoxxku",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 453308,
+    "evaluationId": "eval-jjfoxxku",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 592792,
+    "evaluationId": "eval-jjfoxxku",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 738826,
+    "evaluationId": "eval-pgqd899e",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 344341,
+    "evaluationId": "eval-pgqd899e",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 780981,
+    "evaluationId": "eval-pgqd899e",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 390868,
+    "evaluationId": "eval-5hsc6agz",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 915834,
+    "evaluationId": "eval-5hsc6agz",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 6057,
+    "evaluationId": "eval-5hsc6agz",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 954006,
+    "evaluationId": "eval-91nd0ady",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 900905,
+    "evaluationId": "eval-91nd0ady",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 210791,
+    "evaluationId": "eval-91nd0ady",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 804419,
+    "evaluationId": "eval-4ipvkjp4",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 421314,
+    "evaluationId": "eval-4ipvkjp4",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 329966,
+    "evaluationId": "eval-4ipvkjp4",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 51940,
+    "evaluationId": "eval-0q8b8k3i",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 652862,
+    "evaluationId": "eval-0q8b8k3i",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 178980,
+    "evaluationId": "eval-0q8b8k3i",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 746248,
+    "evaluationId": "eval-d8k5i5lh",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 191414,
+    "evaluationId": "eval-d8k5i5lh",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 675404,
+    "evaluationId": "eval-d8k5i5lh",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 813620,
+    "evaluationId": "eval-zvjngdk7",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 768271,
+    "evaluationId": "eval-zvjngdk7",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 529875,
+    "evaluationId": "eval-zvjngdk7",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 167787,
+    "evaluationId": "eval-3xkwz4kq",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 631352,
+    "evaluationId": "eval-3xkwz4kq",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 626415,
+    "evaluationId": "eval-3xkwz4kq",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 470855,
+    "evaluationId": "eval-tsnywoxc",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 0"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 643827,
+    "evaluationId": "eval-tsnywoxc",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 1"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  },
+  {
+    "id": 330281,
+    "evaluationId": "eval-tsnywoxc",
+    "evaluationExecuteStatus": "executing",
+    "evaluationExecuteStatusName": "Executing",
+    "evaluationResultStatus": "awaitingEvaluation",
+    "evaluationResultStatusName": "Awaiting Evaluation",
+    "operationList": [],
+    "inputList": [
+      {
+        "id": 1,
+        "code": 101,
+        "name": "Input 1",
+        "inputType": "text",
+        "value": "Input for new eval 2"
+      }
+    ],
+    "goldenSampleOutput": [],
+    "modelOutput": [],
+    "evaluationFailReson": [],
+    "evaluationScore": {
+      "score": 0,
+      "evaluationDimensionScoreLiast": []
+    },
+    "evalationModel": {
+      "id": 1,
+      "name": "GPT-4 Model",
+      "input": [],
+      "output": [],
+      "evaluationDimensionList": []
+    },
+    "applicableScopeList": []
+  }
+]

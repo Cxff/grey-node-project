@@ -1,0 +1,397 @@
+[
+  {
+    "id": "eval-lmznyp37",
+    "parentEvaluationId": "eval-parent-l5lul09g",
+    "evaluationAt": "2025-12-31T06:47:41.605Z",
+    "evaluationResultStatus": "waitEvaluation",
+    "evaluationResultStatusName": "等待执行",
+    "applicableScopeList": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ],
+    "goldenSampleList": [
+      {
+        "id": "gs-d1v9vvvp",
+        "name": "Golden Sample Set 1"
+      }
+    ],
+    "evalationModel": {
+      "id": "model-vwy9abkd",
+      "name": "Evaluation Model 1",
+      "input": [
+        {
+          "id": "input-xi2hlw2u",
+          "code": "PROMPT",
+          "name": "Prompt",
+          "type": "text"
+        },
+        {
+          "id": "input-eqxvrpzf",
+          "code": "CONTEXT",
+          "name": "Context",
+          "type": "text"
+        }
+      ],
+      "output": [
+        {
+          "id": "output-ael73x6k",
+          "code": "RESPONSE",
+          "name": "Response",
+          "type": "text"
+        }
+      ],
+      "evaluationDimensionList": [
+        {
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "evaluationScore": {
+      "score": "40.79",
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": "90.65",
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "score": "53.93",
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "passedRate": "46.74%"
+  },
+  {
+    "id": "eval-3eq1rn5m",
+    "parentEvaluationId": "eval-parent-w9oorztn",
+    "evaluationAt": "2025-12-31T06:47:41.606Z",
+    "evaluationResultStatus": "waitEvaluation",
+    "evaluationResultStatusName": "等待执行",
+    "applicableScopeList": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ],
+    "goldenSampleList": [
+      {
+        "id": "gs-9gr31agc",
+        "name": "Golden Sample Set 2"
+      }
+    ],
+    "evalationModel": {
+      "id": "model-btob0dsc",
+      "name": "Evaluation Model 2",
+      "input": [
+        {
+          "id": "input-nsgtgyom",
+          "code": "PROMPT",
+          "name": "Prompt",
+          "type": "text"
+        },
+        {
+          "id": "input-njfxsv1d",
+          "code": "CONTEXT",
+          "name": "Context",
+          "type": "text"
+        }
+      ],
+      "output": [
+        {
+          "id": "output-uib4spob",
+          "code": "RESPONSE",
+          "name": "Response",
+          "type": "text"
+        }
+      ],
+      "evaluationDimensionList": [
+        {
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "evaluationScore": {
+      "score": "46.46",
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": "37.20",
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "score": "78.82",
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "passedRate": "31.16%"
+  },
+  {
+    "id": "eval-qfdy49f5",
+    "parentEvaluationId": "eval-parent-7qmr8j2g",
+    "evaluationAt": "2025-12-31T06:47:41.606Z",
+    "evaluationResultStatus": "failedToExecute",
+    "evaluationResultStatusName": "执行失败",
+    "applicableScopeList": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ],
+    "goldenSampleList": [
+      {
+        "id": "gs-sj6wxhyd",
+        "name": "Golden Sample Set 3"
+      }
+    ],
+    "evalationModel": {
+      "id": "model-e9drqthc",
+      "name": "Evaluation Model 3",
+      "input": [
+        {
+          "id": "input-vglsndd2",
+          "code": "PROMPT",
+          "name": "Prompt",
+          "type": "text"
+        },
+        {
+          "id": "input-n2asaoe6",
+          "code": "CONTEXT",
+          "name": "Context",
+          "type": "text"
+        }
+      ],
+      "output": [
+        {
+          "id": "output-y00dog7m",
+          "code": "RESPONSE",
+          "name": "Response",
+          "type": "text"
+        }
+      ],
+      "evaluationDimensionList": [
+        {
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "evaluationScore": {
+      "score": "30.26",
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": "0.14",
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "score": "51.40",
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "passedRate": "72.13%"
+  },
+  {
+    "id": "eval-hg476w8k",
+    "parentEvaluationId": "eval-parent-gqxxofov",
+    "evaluationAt": "2025-12-31T06:47:41.606Z",
+    "evaluationResultStatus": "inProgress",
+    "evaluationResultStatusName": "执行中",
+    "applicableScopeList": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ],
+    "goldenSampleList": [
+      {
+        "id": "gs-5wzrkbl0",
+        "name": "Golden Sample Set 4"
+      }
+    ],
+    "evalationModel": {
+      "id": "model-2z64icyb",
+      "name": "Evaluation Model 4",
+      "input": [
+        {
+          "id": "input-k10hnxde",
+          "code": "PROMPT",
+          "name": "Prompt",
+          "type": "text"
+        },
+        {
+          "id": "input-4mdaj71e",
+          "code": "CONTEXT",
+          "name": "Context",
+          "type": "text"
+        }
+      ],
+      "output": [
+        {
+          "id": "output-6s5v0ukx",
+          "code": "RESPONSE",
+          "name": "Response",
+          "type": "text"
+        }
+      ],
+      "evaluationDimensionList": [
+        {
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "evaluationScore": {
+      "score": "75.70",
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": "31.89",
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "score": "12.96",
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "passedRate": "72.78%"
+  },
+  {
+    "id": "eval-ynnlthfv",
+    "parentEvaluationId": "eval-parent-4gwsvgpy",
+    "evaluationAt": "2025-12-31T06:47:41.606Z",
+    "evaluationResultStatus": "waitEvaluation",
+    "evaluationResultStatusName": "等待执行",
+    "applicableScopeList": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ],
+    "goldenSampleList": [
+      {
+        "id": "gs-gp3rz5dk",
+        "name": "Golden Sample Set 5"
+      }
+    ],
+    "evalationModel": {
+      "id": "model-r15ct7nr",
+      "name": "Evaluation Model 5",
+      "input": [
+        {
+          "id": "input-a5utzcfo",
+          "code": "PROMPT",
+          "name": "Prompt",
+          "type": "text"
+        },
+        {
+          "id": "input-qjf2043n",
+          "code": "CONTEXT",
+          "name": "Context",
+          "type": "text"
+        }
+      ],
+      "output": [
+        {
+          "id": "output-adpj7j66",
+          "code": "RESPONSE",
+          "name": "Response",
+          "type": "text"
+        }
+      ],
+      "evaluationDimensionList": [
+        {
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "evaluationScore": {
+      "score": "67.64",
+      "evaluationDimensionScoreLiast": [
+        {
+          "score": "12.93",
+          "id": "dim-1",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "score": "60.21",
+          "id": "dim-2",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    },
+    "passedRate": "60.21%"
+  }
+]

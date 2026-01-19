@@ -1,0 +1,242 @@
+[
+  {
+    "itemId": "item-b5ibdh9g",
+    "goldenSampleId": "gs-ne3t9vpg",
+    "answerContent": "This is the expected answer for item 1 in set 1.",
+    "inputContent": "User input for item 1...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-i6t0xoyu",
+    "goldenSampleId": "gs-ne3t9vpg",
+    "answerContent": "This is the expected answer for item 2 in set 1.",
+    "inputContent": "User input for item 2...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-37svu9ux",
+    "goldenSampleId": "gs-ne3t9vpg",
+    "answerContent": "This is the expected answer for item 3 in set 1.",
+    "inputContent": "User input for item 3...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-m4jco7st",
+    "goldenSampleId": "gs-pdo762nj",
+    "answerContent": "This is the expected answer for item 1 in set 2.",
+    "inputContent": "User input for item 1...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-nhthf43u",
+    "goldenSampleId": "gs-pdo762nj",
+    "answerContent": "This is the expected answer for item 2 in set 2.",
+    "inputContent": "User input for item 2...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-p79w3ha5",
+    "goldenSampleId": "gs-pdo762nj",
+    "answerContent": "This is the expected answer for item 3 in set 2.",
+    "inputContent": "User input for item 3...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-higgqeln",
+    "goldenSampleId": "gs-8etivm73",
+    "answerContent": "This is the expected answer for item 1 in set 3.",
+    "inputContent": "User input for item 1...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-np1d0tur",
+    "goldenSampleId": "gs-8etivm73",
+    "answerContent": "This is the expected answer for item 2 in set 3.",
+    "inputContent": "User input for item 2...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-of7uh0v2",
+    "goldenSampleId": "gs-8etivm73",
+    "answerContent": "This is the expected answer for item 3 in set 3.",
+    "inputContent": "User input for item 3...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-xjty4trn",
+    "goldenSampleId": "gs-lwxwqqyo",
+    "answerContent": "This is the expected answer for item 1 in set 4.",
+    "inputContent": "User input for item 1...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-1t0zxgeg",
+    "goldenSampleId": "gs-lwxwqqyo",
+    "answerContent": "This is the expected answer for item 2 in set 4.",
+    "inputContent": "User input for item 2...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-4vqrfu2x",
+    "goldenSampleId": "gs-lwxwqqyo",
+    "answerContent": "This is the expected answer for item 3 in set 4.",
+    "inputContent": "User input for item 3...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-p8e7k6mt",
+    "goldenSampleId": "gs-xtnc8twz",
+    "answerContent": "This is the expected answer for item 1 in set 5.",
+    "inputContent": "User input for item 1...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-62oylmut",
+    "goldenSampleId": "gs-xtnc8twz",
+    "answerContent": "This is the expected answer for item 2 in set 5.",
+    "inputContent": "User input for item 2...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  },
+  {
+    "itemId": "item-znnug135",
+    "goldenSampleId": "gs-xtnc8twz",
+    "answerContent": "This is the expected answer for item 3 in set 5.",
+    "inputContent": "User input for item 3...",
+    "applicableScopes": [
+      {
+        "id": "scope-1",
+        "name": "Engineering"
+      },
+      {
+        "id": "scope-2",
+        "name": "Design"
+      }
+    ]
+  }
+]

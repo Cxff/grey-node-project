@@ -1,0 +1,127 @@
+[
+  {
+    "goldenSampleId": "gs-ne3t9vpg",
+    "goldenSampleName": "Golden Sample Set 1",
+    "ownerId": "owner-101",
+    "description": "Description for Golden Sample Set 1",
+    "memberIds": [
+      "member-kyr15hj1",
+      "member-4rp36spz"
+    ],
+    "evalationModel": {
+      "id": "model-6hgr6mic",
+      "evaluationDimensionList": [
+        {
+          "id": "dim-1vpnza15",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-4ok2sccw",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    }
+  },
+  {
+    "goldenSampleId": "gs-pdo762nj",
+    "goldenSampleName": "Golden Sample Set 2",
+    "ownerId": "owner-102",
+    "description": "Description for Golden Sample Set 2",
+    "memberIds": [
+      "member-5cibhz3q",
+      "member-vs338dy4"
+    ],
+    "evalationModel": {
+      "id": "model-d9mx3f7t",
+      "evaluationDimensionList": [
+        {
+          "id": "dim-5w43yy0y",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-gkpqmxpb",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    }
+  },
+  {
+    "goldenSampleId": "gs-8etivm73",
+    "goldenSampleName": "Golden Sample Set 3",
+    "ownerId": "owner-103",
+    "description": "Description for Golden Sample Set 3",
+    "memberIds": [
+      "member-uouzvdds",
+      "member-ov0140kx"
+    ],
+    "evalationModel": {
+      "id": "model-h28burs0",
+      "evaluationDimensionList": [
+        {
+          "id": "dim-ui8wr43o",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-9q2xavov",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    }
+  },
+  {
+    "goldenSampleId": "gs-lwxwqqyo",
+    "goldenSampleName": "Golden Sample Set 4",
+    "ownerId": "owner-104",
+    "description": "Description for Golden Sample Set 4",
+    "memberIds": [
+      "member-vmt4spgy",
+      "member-6yzycm0e"
+    ],
+    "evalationModel": {
+      "id": "model-4m038m8d",
+      "evaluationDimensionList": [
+        {
+          "id": "dim-dt98y0bj",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-ii2mroq8",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    }
+  },
+  {
+    "goldenSampleId": "gs-xtnc8twz",
+    "goldenSampleName": "Golden Sample Set 5",
+    "ownerId": "owner-105",
+    "description": "Description for Golden Sample Set 5",
+    "memberIds": [
+      "member-214c1ybn",
+      "member-trhp2cb1"
+    ],
+    "evalationModel": {
+      "id": "model-g82ui1qw",
+      "evaluationDimensionList": [
+        {
+          "id": "dim-5klj4ix2",
+          "code": "ACCURACY",
+          "name": "Accuracy"
+        },
+        {
+          "id": "dim-8vhwavsw",
+          "code": "SAFETY",
+          "name": "Safety"
+        }
+      ]
+    }
+  }
+]

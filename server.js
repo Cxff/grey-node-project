@@ -4,24 +4,24 @@ dotenv.config({ path: "./config.env" });
 
 const app = require("./app");
 
-const DB = process.env.DATABASE.replace(
-  "<db_password>",
-  process.env.DATABASE_PASSWORD
-);
-console.log("DB", DB);
+// const DB = process.env.DATABASE.replace(
+//   "<db_password>",
+//   process.env.DATABASE_PASSWORD
+// );
+// console.log("DB", DB);
 
-mongoose
-  .connect(DB, {
-    useNewUrlParser: true,
-    // useCreateIndex: true,
-    // useFindAndModify: false,
-  })
-  .then(() => console.log("DB connection successful!"))
-  .catch((error) => {
-    console.error("❌ MongoDB connection error:", error);
-    // 退出进程或重试
-    process.exit(1);
-  });
+// mongoose
+//   .connect(DB, {
+//     useNewUrlParser: true,
+//     // useCreateIndex: true,
+//     // useFindAndModify: false,
+//   })
+//   .then(() => console.log("DB connection successful!"))
+//   .catch((error) => {
+//     console.error("❌ MongoDB connection error:", error);
+//     // 退出进程或重试
+//     process.exit(1);
+//   });
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {

@@ -1,7 +1,7 @@
 const fs = require("node:fs");
 
 let toursData = JSON.parse(
-  fs.readFileSync(`${__dirname}/../dev-data/data/tours-simple.json`)
+  fs.readFileSync(`${__dirname}/../dev-data/data/prompt-data.json`)
 );
 
 exports.checkId = (req, res, next, val) => {
@@ -14,8 +14,8 @@ exports.checkId = (req, res, next, val) => {
       message: "Not Found",
     });
   }
-  next()
-}
+  next();
+};
 
 exports.getAllTours = (req, res) => {
   if (!toursData) {
@@ -24,11 +24,11 @@ exports.getAllTours = (req, res) => {
       .json({ status: "fail", message: "Could not load data" });
   }
   res.status(200).json({
-    status: "success",
-    results: toursData.length,
+    success: true,
+    total: toursData.length,
     requestTime: req.requestTime,
-    data: {
-      tours: toursData,
+    result: {
+      data: toursData,
     },
   });
 };
