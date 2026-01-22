@@ -11,7 +11,3 @@ git revert <commit-id>
 git revert <revert-id>
 
 怎么说
-
-你说什么
-
-再来一套
